@@ -1,0 +1,7 @@
+ken_fav = {'movie': ['Parent Trap', 'Bride Wars'],
+           'food': ['french fries', 'cheese', 'bacon']}
+
+for item, favs in ken_fav.items():
+
+    for x in favs:
+        print("Kenishas favorite " + item + " is " + x) 
